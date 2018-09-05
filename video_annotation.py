@@ -20,6 +20,7 @@ video_path = 'converted_super.mp4'
 MODEL_NAME = 'inference_graph'
 frozen_graph_file = 'frozen_inference_graph.pb'
 label_path = 'training/labelmap.pbtxt'
+fps = 30
 display_threshold = 0.75
 NUM_CLASSES = 3
 
@@ -78,7 +79,7 @@ def render(boxes, scores, classes, full_image):
 
 #load videos
 video_in = cv2.VideoCapture(video_path)
-video_out = cv2.VideoWriter('Annotated_video.avi', cv2.VideoWriter_fourcc('M','J','P','G'),30,(1920,1080))
+video_out = cv2.VideoWriter('Annotated_video.avi', cv2.VideoWriter_fourcc('M','J','P','G'),fps,(1920,1080))
 
 #process and write frames
 print("[#] Annotating... \n")
