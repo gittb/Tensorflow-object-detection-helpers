@@ -1,4 +1,4 @@
-# Python-image-preprocessing-tools
+# Tensorflow-object-detection-helpers
 scripts that will assist in preprocessing of images
 
 --------------------------
