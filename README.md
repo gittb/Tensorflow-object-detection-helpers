@@ -1,5 +1,5 @@
-# Python-image-preprocessing-tools
-scripts that will assist in preprocessing of images
+# Tensorflow-object-detection-helpers
+scripts that will assist in processing of images
 
 --------------------------
 Image segmenter:
@@ -12,6 +12,7 @@ Video Annotation:
 Accepts input video (codex must be accepted by opencv) then annotates frame by frame rewritting to new video file.
 
 Within each program there is a configuration section which you will need to put in your own params to make it work accordingly.
-All programs designed to work with Object Detection API from tensorflow
+
 
 ---------------------------
+All programs designed to work with Object Detection API from tensorflow
